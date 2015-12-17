@@ -13,4 +13,9 @@ class PagesController extends Controller
     {
     	return ('home');
     }
+
+    public function test ()
+    {
+    	return ('test');
+    }
 }

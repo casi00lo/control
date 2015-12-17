@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::get('home','PagesController@home');
 
+get('pedidos','DataBaseController@index');
